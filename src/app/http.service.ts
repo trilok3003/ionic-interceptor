@@ -9,7 +9,7 @@ import { catchError, tap } from 'rxjs/operators';
 })
 export class HttpService {
 
-  apiUrl = 'jsonplaceholder.typicode/posts';
+  apiUrl = 'https://jsonplaceholder.typicode.com/posts';
 
   constructor(private http: HttpClient) { }
 
